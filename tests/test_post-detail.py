@@ -56,6 +56,6 @@ def test_comment_schema_integrity():
         assert "email" in comment
         
         # 데이터 타입 확인
-        # 주석 추가
+        # 주석 추가 ###
         assert isinstance(comment["postId"], int)
         assert isinstance(comment["email"], str)
